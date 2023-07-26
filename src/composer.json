@@ -36,7 +36,7 @@
     "vlucas/phpdotenv": "^5.4.1",
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
-    "roots/wordpress": "^6.0.0",
+    "roots/wordpress": "^6.2.2",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-theme/twentytwentyone": "^1.6"
@@ -64,9 +64,7 @@
     "wordpress-install-dir": "web/wp"
   },
   "scripts": {
-    "post-root-package-install": [
-      "php -r \"copy('.env.example', '.env');\""
-    ],
+
     "test": [
       "phpcs"
     ]
